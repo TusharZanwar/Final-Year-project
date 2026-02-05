@@ -1,0 +1,28 @@
+[
+  {
+    "PatientID": "P1001",
+    "Name": "Arthur",
+    "Age": 80,
+    "Education": "University Degree",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Oatmeal with blueberries",
+    "Companion": "Daughter Sarah",
+    "KnownConditions": [
+      "Hypertension",
+      "MCI"
+    ]
+  },
+  {
+    "PatientID": "P1002",
+    "Name": "Betty",
+    "Age": 76,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Toast and tea",
+    "Companion": "Husband John",
+    "KnownConditions": [
+      "Arthritis",
+      "MCI"
+    ]
+  }
+]

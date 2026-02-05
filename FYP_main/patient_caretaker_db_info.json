@@ -1,0 +1,542 @@
+[
+  {
+    "PatientID": "P1A001",
+    "Name": "Patient_001",
+    "Age": 62,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Toast and tea",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A002",
+    "Name": "Patient_002",
+    "Age": 65,
+    "Education": "University Degree",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Oatmeal with fruits",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A003",
+    "Name": "Patient_003",
+    "Age": 68,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Eggs and toast",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A004",
+    "Name": "Patient_004",
+    "Age": 70,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Porridge",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A005",
+    "Name": "Patient_005",
+    "Age": 72,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Milk and bread",
+    "Companion": "Spouse",
+    "KnownConditions": ["Hypertension", "MCI"]
+  },
+  {
+    "PatientID": "P1A097",
+    "Name": "Patient_097",
+    "Age": 84,
+    "Education": "Primary School",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "I don't remember",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A098",
+    "Name": "Patient_098",
+    "Age": 85,
+    "Education": "Primary School",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A099",
+    "Name": "Patient_099",
+    "Age": 86,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A100",
+    "Name": "Patient_100",
+    "Age": 88,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A101",
+    "Name": "Patient_101",
+    "Age": 63,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Toast and tea",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A102",
+    "Name": "Patient_102",
+    "Age": 64,
+    "Education": "University Degree",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Oatmeal with fruits",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A103",
+    "Name": "Patient_103",
+    "Age": 66,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Eggs and toast",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A104",
+    "Name": "Patient_104",
+    "Age": 67,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Milk and cereal",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P1A105",
+    "Name": "Patient_105",
+    "Age": 69,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Porridge",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A106",
+    "Name": "Patient_106",
+    "Age": 70,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Toast and butter",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A107",
+    "Name": "Patient_107",
+    "Age": 71,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Tea and biscuits",
+    "Companion": "Spouse",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A108",
+    "Name": "Patient_108",
+    "Age": 72,
+    "Education": "University Degree",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Oatmeal",
+    "Companion": "Spouse",
+    "KnownConditions": ["Hypertension", "MCI"]
+  },
+  {
+    "PatientID": "P1A109",
+    "Name": "Patient_109",
+    "Age": 73,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Milk and bread",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A110",
+    "Name": "Patient_110",
+    "Age": 74,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Tea and toast",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A111",
+    "Name": "Patient_111",
+    "Age": 75,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "I don't remember",
+    "Companion": "Spouse",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A112",
+    "Name": "Patient_112",
+    "Age": 76,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Not sure",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A113",
+    "Name": "Patient_113",
+    "Age": 77,
+    "Education": "None",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P1A114",
+    "Name": "Patient_114",
+    "Age": 78,
+    "Education": "None",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A115",
+    "Name": "Patient_115",
+    "Age": 79,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "I don't remember",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A116",
+    "Name": "Patient_116",
+    "Age": 80,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A117",
+    "Name": "Patient_117",
+    "Age": 82,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A118",
+    "Name": "Patient_118",
+    "Age": 84,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A119",
+    "Name": "Patient_119",
+    "Age": 86,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P1A120",
+    "Name": "Patient_120",
+    "Age": 88,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B201",
+    "Name": "Patient_201",
+    "Age": 61,
+    "Education": "University Degree",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Fruit salad and yogurt",
+    "Companion": "Friend",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B202",
+    "Name": "Patient_202",
+    "Age": 63,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Poha",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B203",
+    "Name": "Patient_203",
+    "Age": 65,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Idli and chutney",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B204",
+    "Name": "Patient_204",
+    "Age": 67,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Upma",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B205",
+    "Name": "Patient_205",
+    "Age": 68,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Bread and milk",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B206",
+    "Name": "Patient_206",
+    "Age": 70,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Paratha and curd",
+    "Companion": "Spouse",
+    "KnownConditions": ["MCI", "Diabetes"]
+  },
+  {
+    "PatientID": "P2B207",
+    "Name": "Patient_207",
+    "Age": 72,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Cornflakes",
+    "Companion": "Spouse",
+    "KnownConditions": ["Hypertension", "MCI"]
+  },
+  {
+    "PatientID": "P2B208",
+    "Name": "Patient_208",
+    "Age": 73,
+    "Education": "University Degree",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Oats and almonds",
+    "Companion": "Spouse",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B209",
+    "Name": "Patient_209",
+    "Age": 74,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "I am not sure",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B210",
+    "Name": "Patient_210",
+    "Age": 75,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Don't remember",
+    "Companion": "Son",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B211",
+    "Name": "Patient_211",
+    "Age": 76,
+    "Education": "None",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B212",
+    "Name": "Patient_212",
+    "Age": 77,
+    "Education": "None",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B213",
+    "Name": "Patient_213",
+    "Age": 78,
+    "Education": "Primary School",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Can't recall",
+    "Companion": "Spouse",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B214",
+    "Name": "Patient_214",
+    "Age": 79,
+    "Education": "None",
+    "Diagnosis": "Moderate",
+    "Breakfast_Today": "Not sure",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B215",
+    "Name": "Patient_215",
+    "Age": 80,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B216",
+    "Name": "Patient_216",
+    "Age": 81,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B217",
+    "Name": "Patient_217",
+    "Age": 83,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B218",
+    "Name": "Patient_218",
+    "Age": 84,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B219",
+    "Name": "Patient_219",
+    "Age": 85,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B220",
+    "Name": "Patient_220",
+    "Age": 86,
+    "Education": "None",
+    "Diagnosis": "Severe",
+    "Breakfast_Today": "Unknown",
+    "Companion": "Caretaker",
+    "KnownConditions": ["Alzheimer's"]
+  },
+  {
+    "PatientID": "P2B221",
+    "Name": "Patient_221",
+    "Age": 66,
+    "Education": "University Degree",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Smoothie and toast",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B222",
+    "Name": "Patient_222",
+    "Age": 64,
+    "Education": "University Degree",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Pancakes",
+    "Companion": "Friend",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B223",
+    "Name": "Patient_223",
+    "Age": 67,
+    "Education": "High School",
+    "Diagnosis": "Normal",
+    "Breakfast_Today": "Sandwich and juice",
+    "Companion": "Spouse",
+    "KnownConditions": []
+  },
+  {
+    "PatientID": "P2B224",
+    "Name": "Patient_224",
+    "Age": 69,
+    "Education": "Primary School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Khichdi",
+    "Companion": "Daughter",
+    "KnownConditions": ["MCI"]
+  },
+  {
+    "PatientID": "P2B225",
+    "Name": "Patient_225",
+    "Age": 71,
+    "Education": "High School",
+    "Diagnosis": "MCI",
+    "Breakfast_Today": "Cereal and milk",
+    "Companion": "Spouse",
+    "KnownConditions": ["MCI"]
+  }
+]

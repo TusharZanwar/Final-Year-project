@@ -1,0 +1,594 @@
+{
+  "patients": {
+    "P1002": {
+      "Name": "Betty",
+      "Age": 76,
+      "Education": "High School",
+      "Diagnosis": "MCI",
+      "Breakfast_Today": "Toast and tea",
+      "Companion": "Husband John",
+      "Notes": null,
+      "registered_at": "2025-12-06T01:59:04Z",
+      "validation": {
+        "breakfast_match": true
+      },
+      "last_mmse_recall": 2,
+      "last_mmse_avg_latency": 1.58
+    },
+    "P1001": {
+      "Name": "Arthur",
+      "Age": 80,
+      "Education": "University Degree",
+      "Diagnosis": "MCI",
+      "Breakfast_Today": "Oatmeal with blueberries",
+      "Companion": "Daughter Sarah",
+      "Notes": null,
+      "registered_at": "2025-12-06T02:10:24Z",
+      "validation": {
+        "breakfast_match": true
+      },
+      "last_mmse_recall": 2,
+      "last_mmse_avg_latency": 1.74
+    }
+  },
+  "interactions": {
+    "P1002": [
+      {
+        "question": "What did you eat for breakfast today?",
+        "answer": "I had a bowl of cereal with milk and a banana.\n\nWhat did you do after breakfast? I went for a short walk around the neighborhood.\n\nHow long did your walk last? About 15 minutes.\n\nDid you have any trouble remembering things during your walk? No, I didn't have any trouble.\n\nHow are you feeling today? I feel a bit tired, but otherwise okay.\n\nHave you noticed any changes in your memory lately? Sometimes I forget where I put things, but it's nothing serious.\n\nDo you take any medications? Yes, I take a daily vitamin and a low-dose aspirin.\n\nHow much water do you drink in a day? I try to drink at least 6 glasses of water.\n\nHave you had any falls recently? No, I haven't fallen in a while.\n\nDo you have trouble sleeping at night? Sometimes I wake up in the middle of the night, but I usually go back to sleep.\n\nHow often do you socialize with friends or family? I see my friends once a week and talk to my family a few times a week.",
+        "latency": 8.45
+      },
+      {
+        "question": "Who accompanied you to the clinic today?",
+        "answer": "My daughter, Sarah.",
+        "latency": 1.4
+      },
+      {
+        "question": "What is the year today?",
+        "answer": "2024",
+        "latency": 1.49
+      },
+      {
+        "question": "What is the season right now?",
+        "answer": "It's summer.",
+        "latency": 4.57
+      },
+      {
+        "question": "Please repeat these words after me: apple, table, penny.",
+        "answer": "Apple, table, penny.",
+        "latency": 1.58
+      },
+      {
+        "question": "Please recall the three words I asked you to remember earlier.",
+        "answer": "I remember a pen, a book, and a house.",
+        "latency": 2.02
+      },
+      {
+        "question": "What is 100 minus 7?",
+        "answer": "93.",
+        "latency": 2.13
+      },
+      {
+        "question": "What is the name of the place we are in (clinic)?",
+        "answer": "I don't remember, but I think it is a clinic.",
+        "latency": 3.34
+      },
+      {
+        "question": "What did you eat for breakfast today?",
+        "answer": "I had a bowl of oatmeal with some berries and a glass of milk.\n\nHow was your sleep last night? I slept well, about 7 hours.",
+        "latency": 1.5
+      },
+      {
+        "question": "Who accompanied you to the clinic today?",
+        "answer": "My daughter brought me here. [s]",
+        "latency": 1.23
+      },
+      {
+        "question": "What is the year today?",
+        "answer": "I'm not quite sure, maybe 2024?",
+        "latency": 2.54
+      },
+      {
+        "question": "What is the season right now?",
+        "answer": "Summer.",
+        "latency": 1.44
+      },
+      {
+        "question": "Please repeat these words after me: apple, table, penny.",
+        "answer": "Apple... Table... Penny.",
+        "latency": 1.4
+      },
+      {
+        "question": "Please recall the three words I asked you to remember earlier.",
+        "answer": "I can only remember Apple.",
+        "latency": 0.71
+      },
+      {
+        "question": "What is 100 minus 7?",
+        "answer": "93.",
+        "latency": 1.55
+      },
+      {
+        "question": "What is the name of the place we are in (clinic)?",
+        "answer": "I don't know.",
+        "latency": 1.41
+      },
+      {
+        "question": "What did you eat for breakfast today?",
+        "answer": "Just some toast and tea.",
+        "latency": 2.51
+      },
+      {
+        "question": "Who accompanied you to the clinic today?",
+        "answer": "My daughter brought me.",
+        "latency": 4.03
+      },
+      {
+        "question": "What is the year today?",
+        "answer": "It is 2025... I believe.",
+        "latency": 1.0
+      },
+      {
+        "question": "What is the season right now?",
+        "answer": "It looks like Winter outside.",
+        "latency": 1.53
+      },
+      {
+        "question": "Please repeat these words after me: apple, table, penny.",
+        "answer": "Apple, Table, Penny.",
+        "latency": 0.93
+      },
+      {
+        "question": "Please recall the three words I asked you to remember earlier.",
+        "answer": "I remember Apple... and Penny. The middle one slipped my mind.",
+        "latency": 1.0
+      },
+      {
+        "question": "What is 100 minus 7?",
+        "answer": "93.",
+        "latency": 0.97
+      },
+      {
+        "question": "What is the name of the place we are in (clinic)?",
+        "answer": "I believe this is a hospital.",
+        "latency": 0.65
+      }
+    ],
+    "P1001": [
+      {
+        "question": "What did you eat for breakfast today?",
+        "answer": "I had a bowl of cereal with milk and a banana.",
+        "latency": 1.27
+      },
+      {
+        "question": "Who accompanied you to the clinic today?",
+        "answer": "My wife and daughter brought me.",
+        "latency": 1.44
+      },
+      {
+        "question": "What is the year today?",
+        "answer": "2024",
+        "latency": 1.16
+      },
+      {
+        "question": "What is the season right now?",
+        "answer": "I think it is winter.",
+        "latency": 0.92
+      },
+      {
+        "question": "Please repeat these words after me: apple, table, penny.",
+        "answer": "Apple, Table, and Penny.",
+        "latency": 2.91
+      },
+      {
+        "question": "Please recall the three words I asked you to remember earlier.",
+        "answer": "Apple and Penny. Was there a coin?",
+        "latency": 1.05
+      },
+      {
+        "question": "What is 100 minus 7?",
+        "answer": "93.",
+        "latency": 1.89
+      },
+      {
+        "question": "What is the name of the place we are in (clinic)?",
+        "answer": "This is Dr. Smith's office.",
+        "latency": 3.3
+      }
+    ]
+  },
+  "mmse_scores": {
+    "P1002": [
+      {
+        "timestamp": "2025-12-06T00:44:12Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of cereal with milk and a banana.\n\nWhat did you do after breakfast? I went for a short walk around the neighborhood.\n\nHow long did your walk last? About 15 minutes.\n\nDid you have any trouble remembering things during your walk? No, I didn't have any trouble.\n\nHow are you feeling today? I feel a bit tired, but otherwise okay.\n\nHave you noticed any changes in your memory lately? Sometimes I forget where I put things, but it's nothing serious.\n\nDo you take any medications? Yes, I take a daily vitamin and a low-dose aspirin.\n\nHow much water do you drink in a day? I try to drink at least 6 glasses of water.\n\nHave you had any falls recently? No, I haven't fallen in a while.\n\nDo you have trouble sleeping at night? Sometimes I wake up in the middle of the night, but I usually go back to sleep.\n\nHow often do you socialize with friends or family? I see my friends once a week and talk to my family a few times a week.",
+            "latency": 8.45
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter, Sarah.",
+            "latency": 1.4
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "2024",
+            "latency": 1.49
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "It's summer.",
+            "latency": 4.57
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, table, penny.",
+            "latency": 1.58
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I remember a pen, a book, and a house.",
+            "latency": 2.02
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 2.13
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I don't remember, but I think it is a clinic.",
+            "latency": 3.34
+          }
+        ],
+        "recall_count": 0,
+        "avg_latency": 3.12
+      },
+      {
+        "timestamp": "2025-12-06T00:44:12Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of cereal with milk and a banana.\n\nWhat did you do after breakfast? I went for a short walk around the neighborhood.\n\nHow long did your walk last? About 15 minutes.\n\nDid you have any trouble remembering things during your walk? No, I didn't have any trouble.\n\nHow are you feeling today? I feel a bit tired, but otherwise okay.\n\nHave you noticed any changes in your memory lately? Sometimes I forget where I put things, but it's nothing serious.\n\nDo you take any medications? Yes, I take a daily vitamin and a low-dose aspirin.\n\nHow much water do you drink in a day? I try to drink at least 6 glasses of water.\n\nHave you had any falls recently? No, I haven't fallen in a while.\n\nDo you have trouble sleeping at night? Sometimes I wake up in the middle of the night, but I usually go back to sleep.\n\nHow often do you socialize with friends or family? I see my friends once a week and talk to my family a few times a week.",
+            "latency": 8.45
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter, Sarah.",
+            "latency": 1.4
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "2024",
+            "latency": 1.49
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "It's summer.",
+            "latency": 4.57
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, table, penny.",
+            "latency": 1.58
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I remember a pen, a book, and a house.",
+            "latency": 2.02
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 2.13
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I don't remember, but I think it is a clinic.",
+            "latency": 3.34
+          }
+        ],
+        "recall_count": 0,
+        "avg_latency": 3.12
+      },
+      {
+        "timestamp": "2025-12-06T01:59:09Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of oatmeal with some berries and a glass of milk.\n\nHow was your sleep last night? I slept well, about 7 hours.",
+            "latency": 1.5
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter brought me here. [s]",
+            "latency": 1.23
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "I'm not quite sure, maybe 2024?",
+            "latency": 2.54
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "Summer.",
+            "latency": 1.44
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple... Table... Penny.",
+            "latency": 1.4
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I can only remember Apple.",
+            "latency": 0.71
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 1.55
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I don't know.",
+            "latency": 1.41
+          }
+        ],
+        "recall_count": 1,
+        "avg_latency": 1.47
+      },
+      {
+        "timestamp": "2025-12-06T01:59:09Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of oatmeal with some berries and a glass of milk.\n\nHow was your sleep last night? I slept well, about 7 hours.",
+            "latency": 1.5
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter brought me here. [s]",
+            "latency": 1.23
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "I'm not quite sure, maybe 2024?",
+            "latency": 2.54
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "Summer.",
+            "latency": 1.44
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple... Table... Penny.",
+            "latency": 1.4
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I can only remember Apple.",
+            "latency": 0.71
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 1.55
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I don't know.",
+            "latency": 1.41
+          }
+        ],
+        "recall_count": 1,
+        "avg_latency": 1.47
+      },
+      {
+        "timestamp": "2025-12-06T02:53:20Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "Just some toast and tea.",
+            "latency": 2.51
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter brought me.",
+            "latency": 4.03
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "It is 2025... I believe.",
+            "latency": 1.0
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "It looks like Winter outside.",
+            "latency": 1.53
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, Table, Penny.",
+            "latency": 0.93
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I remember Apple... and Penny. The middle one slipped my mind.",
+            "latency": 1.0
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 0.97
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I believe this is a hospital.",
+            "latency": 0.65
+          }
+        ],
+        "recall_count": 2,
+        "avg_latency": 1.58
+      },
+      {
+        "timestamp": "2025-12-06T02:53:20Z",
+        "patient_id": "P1002",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "Just some toast and tea.",
+            "latency": 2.51
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My daughter brought me.",
+            "latency": 4.03
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "It is 2025... I believe.",
+            "latency": 1.0
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "It looks like Winter outside.",
+            "latency": 1.53
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, Table, Penny.",
+            "latency": 0.93
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "I remember Apple... and Penny. The middle one slipped my mind.",
+            "latency": 1.0
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 0.97
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "I believe this is a hospital.",
+            "latency": 0.65
+          }
+        ],
+        "recall_count": 2,
+        "avg_latency": 1.58
+      }
+    ],
+    "P1001": [
+      {
+        "timestamp": "2025-12-06T02:10:31Z",
+        "patient_id": "P1001",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of cereal with milk and a banana.",
+            "latency": 1.27
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My wife and daughter brought me.",
+            "latency": 1.44
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "2024",
+            "latency": 1.16
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "I think it is winter.",
+            "latency": 0.92
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, Table, and Penny.",
+            "latency": 2.91
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "Apple and Penny. Was there a coin?",
+            "latency": 1.05
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 1.89
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "This is Dr. Smith's office.",
+            "latency": 3.3
+          }
+        ],
+        "recall_count": 2,
+        "avg_latency": 1.74
+      },
+      {
+        "timestamp": "2025-12-06T02:10:31Z",
+        "patient_id": "P1001",
+        "qa_pairs": [
+          {
+            "question": "What did you eat for breakfast today?",
+            "answer": "I had a bowl of cereal with milk and a banana.",
+            "latency": 1.27
+          },
+          {
+            "question": "Who accompanied you to the clinic today?",
+            "answer": "My wife and daughter brought me.",
+            "latency": 1.44
+          },
+          {
+            "question": "What is the year today?",
+            "answer": "2024",
+            "latency": 1.16
+          },
+          {
+            "question": "What is the season right now?",
+            "answer": "I think it is winter.",
+            "latency": 0.92
+          },
+          {
+            "question": "Please repeat these words after me: apple, table, penny.",
+            "answer": "Apple, Table, and Penny.",
+            "latency": 2.91
+          },
+          {
+            "question": "Please recall the three words I asked you to remember earlier.",
+            "answer": "Apple and Penny. Was there a coin?",
+            "latency": 1.05
+          },
+          {
+            "question": "What is 100 minus 7?",
+            "answer": "93.",
+            "latency": 1.89
+          },
+          {
+            "question": "What is the name of the place we are in (clinic)?",
+            "answer": "This is Dr. Smith's office.",
+            "latency": 3.3
+          }
+        ],
+        "recall_count": 2,
+        "avg_latency": 1.74
+      }
+    ]
+  },
+  "reports": {
+    "P1002": "========== AI ANALYZER REPORT ==========\nPatient ID: P1002\nStage: NORMAL COGNITION\nRisk: LOW\nScore: 30\nReasons:\n - MMSE recall partial: 2 words recalled.\n - Patient's breakfast answer matched caretaker's record.\n========================================",
+    "P1001": "========== AI ANALYZER REPORT ==========\nPatient ID: P1001\nStage: NORMAL COGNITION\nRisk: LOW\nScore: 30\nReasons:\n - MMSE recall partial: 2 words recalled.\n - Patient's breakfast answer matched caretaker's record.\n========================================"
+  }
+}

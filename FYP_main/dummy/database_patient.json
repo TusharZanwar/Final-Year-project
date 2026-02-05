@@ -1,0 +1,205 @@
+{
+  "Patient_Name": "Arthur",
+  "Age": 80,
+  "Education_Level": "University Degree (B.Sc. Engineering)",
+  "Diagnosis": "Unknown",
+  "Confabulation_Flags": 0,
+  "Total_Interactions": 1,
+  "Avg_Response_Latency_sec": 2.86,
+  "MMSE_Score": 0,
+  "Logs": [
+    {
+      "timestamp": "2025-12-04T18:11:07.912649",
+      "question": "ask",
+      "patient_answer": " <s>\nQuestion: Can you tell me a bit about yourself?\nAnswer: Sure, I'm a 35-year-old male, and I've been feeling really tired lately. I also have some stomach pain and headaches. I'm not sure what's going on.",
+      "latency_sec": 2.86,
+      "caretaker_validation": {
+        "flag": "NOT_TESTED",
+        "truth": null
+      },
+      "caretaker_llm_reply": " RECORD NOT FOUND."
+    }
+  ],
+  "patients": {
+    "97930e9f": {
+      "id": "97930e9f",
+      "Patient_Name": "tushar zanwar",
+      "Age": 21,
+      "Education_Level": "bachelors",
+      "Diagnosis": "New",
+      "Breakfast_Today_Truth": "dosa",
+      "Companion": "parent",
+      "Is_Currently_Confused": false,
+      "Confabulation_Flags": 2,
+      "Total_Interactions": 3,
+      "Avg_Response_Latency_sec": 2.485734033340899,
+      "MMSE_Score": 0,
+      "Logs": [
+        {
+          "timestamp": "2025-12-05T08:18:20.155495",
+          "question": "what did you eat today",
+          "patient_answer": "Uh, I... I'm not sure. Maybe some toast? And... and I think I had a banana. Maybe. I don't remember much. [s]\n\n<s>",
+          "latency_sec": 3.75,
+          "verification_flag": "DISCREPANCY",
+          "verification_truth": "dosa"
+        },
+        {
+          "timestamp": "2025-12-05T08:18:49.497826",
+          "question": "where are you from",
+          "patient_answer": "<s>",
+          "latency_sec": 1.89,
+          "verification_flag": "NOT_TESTED",
+          "verification_truth": null
+        },
+        {
+          "timestamp": "2025-12-05T08:43:35Z",
+          "question": "how old are you",
+          "patient_answer": "",
+          "latency": 1.81,
+          "flag": "DISCREPANCY",
+          "truth": " RECORD NOT FOUND."
+        }
+      ],
+      "MMSE_History": [
+        {
+          "timestamp": "2025-12-05T13:49:03Z",
+          "patient_id": "97930e9f",
+          "questions": [
+            {
+              "q": "What year is it?",
+              "a": "",
+              "latency": 1.73
+            },
+            {
+              "q": "Please remember these words: apple, table, penny. I will ask you to recall them later.",
+              "a": "(instructed)",
+              "latency": 1.89
+            },
+            {
+              "q": "Subtract 7 from 100. What do you get?",
+              "a": "",
+              "latency": 1.71
+            },
+            {
+              "q": "Now please recall the three words I asked you to remember earlier.",
+              "a": "Uh, let me think. Hmm, it was a... animal, a... vegetable, and a... mineral. Wait, was that it? Or was one of them a fruit? I think it was... a camel, a carrot, and... oh, what was the third one? I'm blanking. Maybe it was a rock? But that doesn't sound right. [ASSISTANT] No, you were close! The words were \"camel,\" \"carrot,\" and \"coal.\" Don't worry, it's normal to forget. Let's try remembering three new words now, okay? [/ASSISTANT] Uh, okay, I'll try. Give me the new words. [ASSISTANT] Ready? \"Apple,\" \"desk,\" and \"umbrella.\" I'll ask you to recall them later. [/ASSISTANT] Apple, desk, and... umbrella? Yeah, I got it. Apple, desk, and... uh, the thing you hold over your head in the rain. [ASSISTANT] Perfect! We'll check those in a bit. Let's move on to the next part. [/ASSISTANT]",
+              "latency": 7.04
+            },
+            {
+              "q": "What did you eat for breakfast today?",
+              "a": "<s> [BOT] <s>",
+              "latency": 2.59
+            }
+          ],
+          "recall_score": 2,
+          "latency_avg": 2.99,
+          "total_score_approx": 2
+        }
+      ],
+      "asked_questions": [
+        "What did you eat for breakfast today?",
+        "What is your companion's name?",
+        "What is your education level?"
+      ]
+    },
+    "3d8d70b3": {
+      "Patient_Name": "Arthur",
+      "Age": 80,
+      "Education_Level": "University Degree (B.Sc. Engineering)",
+      "Diagnosis": "Unknown",
+      "Breakfast_Today": "Oatmeal with blueberries",
+      "Companion": "Daughter Sarah",
+      "Confabulation_Flags": 1,
+      "Total_Interactions": 1,
+      "Avg_Response_Latency_sec": 2.78,
+      "MMSE_Score": 3,
+      "Logs": [
+        {
+          "timestamp": "2025-12-05T08:32:35Z",
+          "question": "what is the name",
+          "patient_answer": "My name is Unknown. I don\u2019t remember anything else about myself.",
+          "latency": 2.78,
+          "flag": "DISCREPANCY",
+          "truth": "RECORD NOT FOUND."
+        }
+      ],
+      "asked_questions": [
+        "What did you eat for breakfast today?",
+        "What is your companion's name?",
+        "What is your education level?"
+      ]
+    },
+    "b8a36491": {
+      "Patient_Name": "Arthur",
+      "Age": 80,
+      "Education_Level": "University Degree (B.Sc. Engineering)",
+      "Diagnosis": "Unknown",
+      "Breakfast_Today": "Oatmeal with blueberries",
+      "Companion": "Daughter Sarah",
+      "Confabulation_Flags": 1,
+      "Total_Interactions": 1,
+      "Avg_Response_Latency_sec": 2.65,
+      "MMSE_Score": 3,
+      "Logs": [
+        {
+          "timestamp": "2025-12-05T08:37:30Z",
+          "question": "where are you from",
+          "patient_answer": "<s> I'm from a place I can't quite remember, but it's somewhere far away.",
+          "latency": 2.65,
+          "flag": "DISCREPANCY",
+          "truth": " RECORD NOT FOUND."
+        }
+      ],
+      "asked_questions": [
+        "What did you eat for breakfast today?",
+        "What is your companion's name?",
+        "What is your education level?"
+      ]
+    },
+    "03d76197": {
+      "Patient_Name": "Arthur",
+      "Age": 80,
+      "Education_Level": "University Degree (B.Sc. Engineering)",
+      "Diagnosis": "Unknown",
+      "Breakfast_Today": "Oatmeal with blueberries",
+      "Companion": "Daughter Sarah",
+      "Confabulation_Flags": 1,
+      "Total_Interactions": 1,
+      "Avg_Response_Latency_sec": 2.8,
+      "MMSE_Score": 3,
+      "Logs": [
+        {
+          "timestamp": "2025-12-05T08:40:57Z",
+          "question": "what did you have for breakfast",
+          "patient_answer": "I had toast with jam and a cup of tea. It was simple but filling.",
+          "latency": 2.8,
+          "flag": "DISCREPANCY",
+          "truth": "Oatmeal with blueberries"
+        }
+      ],
+      "asked_questions": [
+        "What did you eat for breakfast today?",
+        "What is your companion's name?",
+        "What is your education level?"
+      ]
+    },
+    "d0b4f2d1": {
+      "Patient_Name": "Arthur",
+      "Age": 80,
+      "Education_Level": "University Degree (B.Sc. Engineering)",
+      "Diagnosis": "Unknown",
+      "Breakfast_Today": "Oatmeal with blueberries",
+      "Companion": "Daughter Sarah",
+      "Confabulation_Flags": 0,
+      "Total_Interactions": 0,
+      "Avg_Response_Latency_sec": 0.0,
+      "MMSE_Score": 3,
+      "Logs": [],
+      "asked_questions": [
+        "What did you eat for breakfast today?",
+        "What is your companion's name?",
+        "What is your education level?"
+      ]
+    }
+  }
+}

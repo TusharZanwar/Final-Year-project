@@ -1,0 +1,72 @@
+[
+  {
+    "PatientID": "P1A001",
+    "ExpectedStage": "NORMAL COGNITION",
+    "ExpectedRiskLevel": "LOW",
+    "ExpectedRiskScore": 0,
+    "DominantFactor": "None"
+  },
+  {
+    "PatientID": "P1A003",
+    "ExpectedStage": "NORMAL COGNITION",
+    "ExpectedRiskLevel": "LOW",
+    "ExpectedRiskScore": 30,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A005",
+    "ExpectedStage": "MILD COGNITIVE IMPAIRMENT (MCI)",
+    "ExpectedRiskLevel": "MEDIUM",
+    "ExpectedRiskScore": 50,
+    "DominantFactor": "Caretaker Validation"
+  },
+  {
+    "PatientID": "P1A031",
+    "ExpectedStage": "MILD COGNITIVE IMPAIRMENT (MCI)",
+    "ExpectedRiskLevel": "MEDIUM",
+    "ExpectedRiskScore": 60,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A055",
+    "ExpectedStage": "MILD COGNITIVE IMPAIRMENT (MCI)",
+    "ExpectedRiskLevel": "MEDIUM",
+    "ExpectedRiskScore": 70,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A072",
+    "ExpectedStage": "MILD COGNITIVE IMPAIRMENT (MCI)",
+    "ExpectedRiskLevel": "MEDIUM",
+    "ExpectedRiskScore": 80,
+    "DominantFactor": "Latency"
+  },
+  {
+    "PatientID": "P1A091",
+    "ExpectedStage": "SEVERE_IMPAIRMENT_SUSPECTED",
+    "ExpectedRiskLevel": "HIGH",
+    "ExpectedRiskScore": 90,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A097",
+    "ExpectedStage": "SEVERE_IMPAIRMENT_SUSPECTED",
+    "ExpectedRiskLevel": "HIGH",
+    "ExpectedRiskScore": 100,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A099",
+    "ExpectedStage": "SEVERE_IMPAIRMENT_SUSPECTED",
+    "ExpectedRiskLevel": "HIGH",
+    "ExpectedRiskScore": 100,
+    "DominantFactor": "MMSE Recall"
+  },
+  {
+    "PatientID": "P1A100",
+    "ExpectedStage": "SEVERE_IMPAIRMENT_SUSPECTED",
+    "ExpectedRiskLevel": "HIGH",
+    "ExpectedRiskScore": 100,
+    "DominantFactor": "MMSE Recall"
+  }
+]

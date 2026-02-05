@@ -1,0 +1,35 @@
+[
+  {
+    "PatientID": "P1001",
+    "Name": "Arthur",
+    "Age": 80,
+    "Gender": "Male",
+    "EducationLevel": "University Degree",
+    "Breakfast": "Oatmeal with blueberries",
+    "Companion": "Daughter Sarah",
+    "KnownConditions": ["MCI"],
+    "Notes": "Often forgets dates, mild confusion in evenings."
+  },
+  {
+    "PatientID": "P1002",
+    "Name": "Betty",
+    "Age": 76,
+    "Gender": "Female",
+    "EducationLevel": "High School",
+    "Breakfast": "Toast and tea",
+    "Companion": "Husband John",
+    "KnownConditions": ["None"],
+    "Notes": "Good orientation, sometimes repeats questions."
+  },
+  {
+    "PatientID": "P1009",
+    "Name": "Nora",
+    "Age": 72,
+    "Gender": "Female",
+    "EducationLevel": "Masters in Science",
+    "Breakfast": "Pancakes and orange juice",
+    "Companion": "Son Adam",
+    "KnownConditions": ["MCI"],
+    "Notes": "Slow recall but good mood."
+  }
+]

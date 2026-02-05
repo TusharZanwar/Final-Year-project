@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Alzheimer’s Multi-Agent System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #f4f6f8;
+            padding: 20px;
+        }
+        h2 {
+            color: #333;
+        }
+        .box {
+            background: white;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 6px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+        .event {
+            margin-bottom: 8px;
+            font-size: 14px;
+        }
+        .label {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+<h2>🧠 Alzheimer’s Multi-Agent System (Live)</h2>
+
+<div class="box">
+    <h3>MMSE Questions</h3>
+    <div id="questions"></div>
+</div>
+
+<div class="box">
+    <h3>Patient Responses</h3>
+    <div id="responses"></div>
+</div>
+
+<div class="box">
+    <h3>Analyzer Output</h3>
+    <div id="analysis"></div>
+</div>
+
+<script>
+    const ws = new WebSocket("ws://localhost:9001");
+
+    ws.onopen = () => {
+        console.log("Connected to WebSocket server");
+    };
+
+    ws.onmessage = (event) => {
+        const msg = JSON.parse(event.data);
+
+        if (msg.event === "mmse_question") {
+            document.getElementById("questions").innerHTML +=
+                `<div class="event"><span class="label">Q:</span> ${msg.data.question}</div>`;
+        }
+
+        if (msg.event === "patient_response") {
+            document.getElementById("responses").innerHTML +=
+                `<div class="event">
+                    <span class="label">A:</span> ${msg.data.answer}
+                    <span style="color:gray;">(${msg.data.latency}s)</span>
+                </div>`;
+        }
+
+        if (msg.event === "analyzer_report") {
+            document.getElementById("analysis").innerHTML =
+                `<div class="event">
+                    <p><b>Stage:</b> ${msg.data.stage}</p>
+                    <p><b>Risk:</b> ${msg.data.risk}</p>
+                    <p><b>Score:</b> ${msg.data.score}</p>
+                </div>`;
+        }
+    };
+</script>
+
+</body>
+</html>
